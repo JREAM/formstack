@@ -1,8 +1,11 @@
 <?php
 require 'vendor/autoload.php';
+require 'config/api.php';
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-// Use Guzzle for API Request
+use Formstack\ApiClient;
+
+$apiClient = new ApiClient(1, 2, 3);
 
 $app = new Silex\Application();
 $app['debug'] = true;
