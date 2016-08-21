@@ -1,0 +1,24 @@
+{
+  "name": "formstack",
+  "version": "1.0.0",
+  "description": "Resources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JREAM/formstack.git"
+  },
+  "author": "Jesse Boyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JREAM/formstack/issues"
+  },
+  "homepage": "https://github.com/JREAM/formstack#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0"
+  }
+}

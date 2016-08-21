@@ -1,0 +1,21 @@
+{
+    "name": "jream/formstack",
+    "description": "Demo Application",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "twig/twig": "^1.24",
+        "symfony/yaml": "v2.8.9",
+        "silex/silex": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jesse Boyer",
+            "email": "imboyus@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"Formstack\\": "src/Formstack"}
+    }
+}
