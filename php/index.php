@@ -9,7 +9,7 @@ use Formstack\ApiClient;
 
 try {
     $config = Yaml::parse(file_get_contents('../config/api.yml'));
-} catch(ParseExcetion $e) {
+} catch (ParseExcetion $e) {
     throw new ParseException("Could not parse YML file: %s" . $e->getMessage());
 }
 

@@ -35,6 +35,7 @@ cmd = raw_input("Command: ")
 
 print cmd
 
+
 class ApiClient():
 
     def list(self, id=False):
@@ -45,5 +46,3 @@ class ApiClient():
 
     def q(self):
         sys.exit
-
-
